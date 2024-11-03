@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    min-height: 100vh; /* Chiều cao toàn bộ màn hình */
+    background-color:#ffffff; /* Màu nền cho toàn bộ khu vực */
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 20px;
+}
+
+.content-container {
+    display: flex; /* Sử dụng flexbox để căn đều menu và hình ảnh */
+    background: rgb(224, 221, 221); /* Màu nền của toàn bộ khối bao gồm menu và hình */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Tạo bóng mờ cho container */
+    padding: 20px;
+}
+
+.login-container {
+    padding: 20px;
+    max-width: 400px; /* Đảm bảo chiều rộng tối đa cho phần menu */
+    background: transparent; /* Để phần menu không có nền riêng */
+}
+
+.hinhanh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    padding: 20px;
+
+}
+
+.login-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hinhanh b {
+    color: #3f4a6b; /* Màu chữ có thể tùy chỉnh theo ảnh */
+    font-size: 16px;
+}

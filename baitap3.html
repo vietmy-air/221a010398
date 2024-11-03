@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datetime Picker Example</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap-datetimepicker.min.css" />
+    <link rel="stylesheet" href="baitap3.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+
+<div class="container">
+    <h1>Calendar datetimepicker</h1>
+    <div class="form-group">
+        <div class="input-group date" id="datetimepicker">
+            <input type="text" class="form-control" placeholder="Chọn ngày giờ" />
+            <div class="input-group-append">
+                <span class="input-group-text">
+                    <span class="fas fa-calendar-alt"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    
+    <button class="btn btn-danger" id="closeBtn">CLOSE</button>
+    <button class="btn btn-secondary" id="disabledBtn" disabled>DISABLED</button>
+</div>
+
+<!-- Scripts -->
+<script src="jquery-3.7.1.min.js"></script>
+<script src="moment.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="bootstrap-datetimepicker.min.js"></script>
+<script src="script.js"></script> <!-- Link to the external JavaScript file -->
+
+</body>
+</html>

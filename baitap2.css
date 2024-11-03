@@ -1,0 +1,33 @@
+body {
+    background-color: #cfd7de;
+    display: flex; /* Sử dụng flexbox để căn giữa */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100vh; /* Chiều cao của body bằng chiều cao của viewport */
+    
+   
+}
+
+    .testimonial-text {
+        width: 300px; /* Chiều rộng */
+        height: 300px; /* Chiều cao */
+        overflow: hidden; /* Ẩn phần văn bản vượt quá kích thước */
+        text-overflow: ellipsis; /* Thêm dấu "..." nếu văn bản quá dài */
+        background-color: rgb(1, 1, 1);
+        border: 1px solid #000; /* Biên để dễ thấy khung */
+        padding: 10px; /* Khoảng cách bên trong */
+        text-align: center;
+        padding: 0px
+     
+    }
+
+.aa{
+    font-weight: bold; 
+    font-size: 24px;
+    color:#ADD8E6;
+   
+}
+.bb{
+    color:#ADD8E6;
+}
+

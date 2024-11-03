@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <!-- Thêm Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Bootstrap Icons CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="baitap1.css">
+</head>
+<body>
+    <div class="background">
+        <div class="login-container">
+            <h2 class="text-center">Đăng Nhập</h2>
+            <form action="#" method="post">
+                <div class="form-group mb-3">
+                    <label for="username">Tên người dùng:</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="username-addon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+                                <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                                <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                            </svg>
+                        </span>
+                        <input type="text" class="form-control" id="username" placeholder="John Doe" name="username" aria-describedby="username-addon" required>
+                    </div>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="email">Your email:</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="username-addon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                              </svg>
+                        </span>
+                        <input type="text" class="form-control" id="username" placeholder="nguyenvana@...." name="username" aria-describedby="username-addon" required>
+                    </div>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="password">Mật khẩu:</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="password-addon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2M5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1"/>
+                              </svg>
+                        </span>
+                        <input type="password" class="form-control" id="password" placeholder="password" name="password" aria-describedby="password-addon" required>
+                    </div> <br>
+                    <div class="form-group mb-3">
+                        <label for="repeat">repeat your password</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="username-addon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-lock2" viewBox="0 0 16 16">
+                                    <path d="M8 5a1 1 0 0 1 1 1v1H7V6a1 1 0 0 1 1-1m2 2.076V6a2 2 0 1 0-4 0v1.076c-.54.166-1 .597-1 1.224v2.4c0 .816.781 1.3 1.5 1.3h3c.719 0 1.5-.484 1.5-1.3V8.3c0-.627-.46-1.058-1-1.224"/>
+                                    <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1"/>
+                                  </svg>
+                            </span>
+                            <input type="text" class="form-control" id="repeat" placeholder="123@..." name="username" aria-describedby="username-addon" required>
+                        </div>
+                    </div> 
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" id="rememberMe" name="rememberMe">
+                        <label class="form-check-label" for="rememberMe">
+                            Remember me
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Sign in</button>
+            </form>
+            
+            
+        </div>
+
+
+        <div class="hinhanh text-center mt-3">
+            <img src="https://colorlib.com/etc/regform/colorlib-regform-7/images/signup-image.jpg"> <br>
+            <u>I am already member</u>
+        </div>
+    </div>
+</body>
+</html>
